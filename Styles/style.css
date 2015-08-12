@@ -19,7 +19,7 @@ header, section, .sidebar{
 }
 
 section{
-	background-image:url("images/Website-Design-Background.png");
+	background-image:url("../images/Website-Design-Background.png");
 	background-size:100% 100%;
 	height:1017px;
 }
@@ -56,7 +56,7 @@ section{
 	height:700px;
 	float:left;
 	margin-right:45px;
-	background-image:url("panel1.png");
+	background-image:url("../Panels/panel1.png");
 	background-size: 100% 100%;
 	transition: width 2s  ease;
 	
@@ -68,7 +68,7 @@ section{
 	float:left;
 	margin-right:45px;
 	background-size: 100% 100%;
-	background-image:url("panel2.png");
+	background-image:url("../Panels/panel2.png");
 
 }
 .panel3{
@@ -76,7 +76,7 @@ section{
 	height:700px;
 	float:left;
 	background-size: 100% 100%;
-	background-image:url("panel3.png");
+	background-image:url("../Panels/panel3.png");
 	transition: width 2s ease;
     float: right;
 
