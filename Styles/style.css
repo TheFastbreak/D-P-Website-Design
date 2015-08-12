@@ -1,0 +1,134 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header, section, .sidebar{
+	display: block;
+}
+
+#header{
+	font: 60px papyrus;
+	color: white;
+	text-align: center;
+	opacity: 1;
+	transition:all .5s linear;
+}
+#header:hover{
+	 text-shadow: 1px 1px 2px white, 0 0 15px #93E9E2, 0 0 5px #93E9E2;
+}
+
+section{
+	background-image:url("images/Website-Design-Background.png");
+	background-size:100% 100%;
+	height:1017px;
+}
+
+#PANELS{
+	margin:0px auto;
+	padding-top:90px;
+	height:500px;
+	width:1146px;
+	animation-name:yeah;
+	animation-duration:1s;
+	animation-delay:2s;
+	animation-iteration-count:1;
+	animation-fill-mode:forwards;
+	animation-transition-mode:linear;
+	opacity:0;
+}
+@keyframes yeah{
+	0%{opacity:0;}
+	10%{opacity:.10;}
+	20%{opacity:.20;}
+	30%{opacity:.30;}
+	40%{opacity:.40;}
+	50%{opacity:.50;}
+	60%{opacity:.60;}
+	70%{opacity:.70;}
+	80%{opacity:.80;}
+	90%{opacity:.90;}
+	100%{opacity:1;}
+
+}
+.panel1{
+	width:350px;
+	height:700px;
+	float:left;
+	margin-right:45px;
+	background-image:url("panel1.png");
+	background-size: 100% 100%;
+	transition: width 2s  ease;
+	
+}
+
+.panel2{
+	width:350px;
+	height:700px;
+	float:left;
+	margin-right:45px;
+	background-size: 100% 100%;
+	background-image:url("panel2.png");
+
+}
+.panel3{
+	width:350px;
+	height:700px;
+	float:left;
+	background-size: 100% 100%;
+	background-image:url("panel3.png");
+	transition: width 2s ease;
+    float: right;
+
+}
+.header{
+	font:32px Baskerville;
+	text-align:center;
+	color:white;
+	padding-top:350px;
+	transition: padding-top 2s ease;
+}
+span{
+	font:48px bold Baskerville;
+	color:white;
+}
+
+footer{
+padding-top: 250px;
+font:italic 14px Palatino;
+}
+li{
+	font: 36px Baskerville;
+	transition: translate 1s ease;
+}
+li:hover{
+	transform:translate(10px);
+}
+#LOGO{
+	animation-name:idk;
+	animation-duration:3s;
+	animation-iteration-count:1;
+	animation-fill-mode:forwards;
+}
+@keyframes idk{
+	0%{opacity:0;transform:translate(-150px);}
+	25%{opacity:.25;}
+	50%{opacity:.50;}
+	75%{opacity:.75;}
+	100%{opacity:1;transform:translate(0px);}
+}
+h1 img{
+	margin-right:15px;
+	margin-top:100px;
+}
+#DP{
+	font-size:64px;
+}
+li a{
+	text-decoration: none;
+	color:white;
+
+}
+.sidebar{
+	color:black;
+}

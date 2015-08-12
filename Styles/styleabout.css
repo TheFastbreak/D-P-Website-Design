@@ -1,0 +1,69 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+section, .sidebar{
+	display: block;
+}
+#aboutsection{
+	background-color:white;
+	background-size:100% 100%;
+	height:970px;
+	background-image:url("images/Website-Design-Background.png");
+	background-size:100% 100%;
+}
+li{
+	font: 36px Baskerville;
+	color: #93E9E2;
+	transition: translate 1s ease;
+}
+li:hover{
+	transform:translate(10px);
+}
+li a{
+	text-decoration: none;
+	color: white
+}
+#monitor{
+	margin-top:20px;
+	margin-left:350px;
+	z-index:1;
+	transform:translate(20px, -300px);
+}
+.section-scroll{
+	background-size:100% 100%;
+}
+#overlay{
+ position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image:url("images/glass.jpeg");
+    opacity:0;
+    height:970px;
+    animation-name:fadetest;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-transition-mode:linear;
+}
+@keyframes fadetest{
+	0%{opacity:0;}
+	10%{opacity:.04;}
+	20%{opacity:.08;}
+	30%{opacity:.12;}
+	40%{opacity:.16;}
+	50%{opacity:.20;}
+	60%{opacity:.24;}
+	70%{opacity:.28;}
+	80%{opacity:.32;}
+	90%{opacity:.36;}
+	100%{opacity:.40;}
+}
+#grass{
+	transform: translate(0px, 1699px);
+	width:1903px;
+	opacity:1;
+}
